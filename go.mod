@@ -21,6 +21,4 @@ require (
 	gopkg.in/yaml.v2 v2.3.1-0.20200602174213-b893565b90ca
 )
 
-replace (
-    github.com/opencontrol/compliance-masonry => ../compliance-masonry
-)
+replace github.com/opencontrol/compliance-masonry => github.com/bryan-navapbc/compliance-masonry v1.1.7-0.20201229160111-6235f72dbbdc
