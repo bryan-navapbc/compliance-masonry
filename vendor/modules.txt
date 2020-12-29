@@ -115,3 +115,4 @@ gopkg.in/tomb.v1
 # gopkg.in/yaml.v2 v2.3.1-0.20200602174213-b893565b90ca
 ## explicit
 gopkg.in/yaml.v2
+# github.com/opencontrol/compliance-masonry => ../compliance-masonry

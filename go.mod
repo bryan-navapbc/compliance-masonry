@@ -20,3 +20,7 @@ require (
 	golang.org/x/text v0.3.4-0.20200821135104-79eda68eebff // indirect
 	gopkg.in/yaml.v2 v2.3.1-0.20200602174213-b893565b90ca
 )
+
+replace (
+    github.com/opencontrol/compliance-masonry => ../compliance-masonry
+)
