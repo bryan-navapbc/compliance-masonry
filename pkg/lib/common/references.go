@@ -24,6 +24,7 @@ type GeneralReferences []GeneralReference
 type VerificationReference struct {
 	GeneralReference `yaml:",inline"`
 	Key              string `yaml:"key" json:"key"`
+	Description      string `yaml:"description" json:"description"`
 }
 
 //VerificationReferences a slice of type VerificationReference
